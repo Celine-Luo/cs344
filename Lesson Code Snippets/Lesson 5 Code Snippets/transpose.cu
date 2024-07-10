@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "gputimer.h"
 
-const int N = 1024;		// matrix size is NxN
-const int K = 32;		// tile size is KxK
+const int N = 1024;		// matrix size is N * N
+const int K = 32;		// tile size is K * K
 // const int K = 16; // 会更快
 
 // Utility functions: compare, print, and fill matrices
